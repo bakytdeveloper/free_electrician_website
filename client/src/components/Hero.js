@@ -46,14 +46,16 @@ const Hero = () => {
                         <div className="text-center">
                             <div className="position-relative">
                                 <img
-                                    src="/api/placeholder/600/400"
+                                    src="https://img.freepik.com/free-photo/electrician-man-overalls-works-switchboard-portrait-electrician-overalls_169016-66836.jpg?uid=R92488734&ga=GA1.1.293432331.1759575245&w=740&q=80"
                                     alt="Электрик за работой"
                                     className="img-fluid rounded-3 shadow-lg"
                                 />
                                 <div className="position-absolute top-0 start-0 m-3">
                                     <div className="bg-success text-white p-3 rounded-3 shadow">
-                                        <div className="h5 mb-0">🚀 Срочный выезд</div>
-                                        <small>30-60 минут</small>
+                                        <a className="hero-green-button" href="#order">
+                                            <div className="h5 mb-0">🚀 Срочный выезд</div>
+                                            <small>30-60 минут</small>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

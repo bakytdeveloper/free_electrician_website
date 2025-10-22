@@ -59,6 +59,11 @@ body {
   overflow: hidden;
 }
 
+.hero-green-button {
+  text-decoration: none;
+  color: #f7fafc;
+}
+
 .btn-electric:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);

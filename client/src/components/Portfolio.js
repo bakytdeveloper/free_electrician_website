@@ -8,37 +8,37 @@ const Portfolio = () => {
     const portfolioItems = [
         {
             category: 'Квартиры',
-            image: '/api/placeholder/400/300',
+            image: 'https://img.freepik.com/free-photo/electrician-installing-electricity_1398-413.jpg?uid=R92488734&ga=GA1.1.293432331.1759575245&w=740&q=80',
             title: 'Электромонтаж в 3-комнатной квартире',
             description: 'Полная замена электропроводки с установкой умного щитка'
         },
         {
             category: 'Дома',
-            image: '/api/placeholder/400/300',
+            image: 'https://img.freepik.com/free-photo/electrician-builder-work-examines-cable-connection-electrical-line-fuselage-industrial-switchboard-professional-overalls-with-electrician-s-tool_169016-7334.jpg?uid=R92488734&ga=GA1.1.293432331.1759575245&w=740&q=80',
             title: 'Частный дом 150м²',
             description: 'Монтаж электрики с заземлением и системой защиты'
         },
         {
             category: 'Офисы',
-            image: '/api/placeholder/400/300',
+            image: 'https://img.freepik.com/free-photo/man-electrical-technician-working-switchboard-with-fuses_169016-24586.jpg?uid=R92488734&ga=GA1.1.293432331.1759575245&w=740&q=80',
             title: 'Офисное помещение',
             description: 'Установка офисного освещения и розеточных групп'
         },
         {
             category: 'Освещение',
-            image: '/api/placeholder/400/300',
+            image: 'https://img.freepik.com/premium-photo/home-ceiling-light-equipment-maintenance_1016675-759.jpg?uid=R92488734&ga=GA1.1.293432331.1759575245&w=740&q=80',
             title: 'Дизайнерское освещение',
             description: 'Многоуровневая система освещения в гостиной'
         },
         {
             category: 'Щитки',
-            image: '/api/placeholder/400/300',
+            image: 'https://img.freepik.com/free-photo/electrician-inspects-switchboard-wiring-check-screwdriver-hand_169016-68211.jpg?uid=R92488734&ga=GA1.1.293432331.1759575245&w=740&q=80',
             title: 'Электрощиток',
             description: 'Сборка и установка современного электрощита'
         },
         {
             category: 'Розетки',
-            image: '/api/placeholder/400/300',
+            image: 'https://img.freepik.com/premium-photo/electrician-attaching-wires-socket-new-building-closeup_392895-505927.jpg?uid=R92488734&ga=GA1.1.293432331.1759575245&w=740&q=80',
             title: 'Блок розеток',
             description: 'Установка стильных розеток с USB-портами'
         }
