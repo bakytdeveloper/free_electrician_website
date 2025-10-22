@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className="h5 mb-3">Контакты</div>
                         <p className="text-light mb-1">
                             📞 <a href="tel:+79991234567" className="text-white text-decoration-none">
-                            +7 (999) 123-45-67
+                            +996 (777) 12-34-56
                         </a>
                         </p>
                         <p className="text-light mb-0">
