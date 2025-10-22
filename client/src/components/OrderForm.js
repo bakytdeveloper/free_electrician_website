@@ -100,7 +100,7 @@ const OrderForm = () => {
                                                 name="name"
                                                 value={formData.name}
                                                 onChange={handleChange}
-                                                placeholder="Иван Иванов"
+                                                placeholder="Пупкин Великолепный"
                                                 required
                                                 className="border-2 py-3"
                                             />
@@ -117,7 +117,7 @@ const OrderForm = () => {
                                                 name="phone"
                                                 value={formData.phone}
                                                 onChange={handleChange}
-                                                placeholder="+7 (999) 123-45-67"
+                                                placeholder="+996 (777) 12-34-56"
                                                 required
                                                 className="border-2 py-3"
                                             />
@@ -127,14 +127,14 @@ const OrderForm = () => {
 
                                 <Form.Group className="mb-3">
                                     <Form.Label className="fw-semibold text-dark">
-                                        📍 Адрес *
+                                        📡 Адрес *
                                     </Form.Label>
                                     <Form.Control
                                         type="text"
                                         name="address"
                                         value={formData.address}
                                         onChange={handleChange}
-                                        placeholder="ул. Примерная, д. 123, кв. 45"
+                                        placeholder="г.Бишкек, мкр.Кок-Жар, д. 4, кв. 777"
                                         required
                                         className="border-2 py-3"
                                     />
@@ -192,7 +192,7 @@ const OrderForm = () => {
                                 <div className="text-white">
                                     <div className="h4 mb-2">📞 Телефон</div>
                                     <a href="tel:+79991234567" className="text-white text-decoration-none h5">
-                                        +7 (999) 123-45-67
+                                        +996 (777) 12-34-56
                                     </a>
                                 </div>
                             </Col>
@@ -204,7 +204,7 @@ const OrderForm = () => {
                             </Col>
                             <Col md={4} className="mb-3" data-aos="fade-up" data-aos-delay="300">
                                 <div className="text-white">
-                                    <div className="h4 mb-2">📍 Зона работы</div>
+                                    <div className="h4 mb-2">📡 Зона работы</div>
                                     <div className="h5">Весь город и область</div>
                                 </div>
                             </Col>
