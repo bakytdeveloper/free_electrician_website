@@ -156,6 +156,10 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
 }
 
+.portfolio-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* Адаптивность */
 @media (max-width: 768px) {
   .hero-title {
