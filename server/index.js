@@ -86,7 +86,7 @@ app.post('/api/test-email', async (req, res) => {
         const testResult = await sendOrderEmail({
             name: 'Тестовый клиент',
             description: 'Это тестовый заказ для проверки работы системы',
-            phone: '+79991234567',
+            phone: '+996123456789',
             address: 'Тестовый адрес'
         });
 
